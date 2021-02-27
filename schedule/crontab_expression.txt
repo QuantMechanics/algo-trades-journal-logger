@@ -1,0 +1,1 @@
+30 15 * * 1-5 /home/path-to-python-env/python  /path-to-file/algo-trades-logger/tradelogger.py

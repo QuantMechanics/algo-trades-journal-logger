@@ -13,9 +13,18 @@ Remember i'm using here SQLLite3 db as well here.even you can tweek your script 
 - <strong> Step 3 :</strong> Install the dependencies by running **pip install requirements.txt**
 
 
+#### Atuomate it
+You could also schedule the logging to be automatic to running only on weekdays.
+
+Below expression would run daily at 3.30PM from Mon-Fri.
+If you're running Linux/Ubuntu Machine you schedule it using crontab expression. crontab expression could be as bin below sample
+
+
+<code>30 15 * * 1-5 /home/path-to-python-env/python  /path-to-file/algo-trades-logger/tradelogger.py</code>
+
 #### How to Run
 Choose your environement where you've dependencies installed and then run below command.
-> python tradelogger.py
+<code>python tradelogger.py</code>
 
 
 
